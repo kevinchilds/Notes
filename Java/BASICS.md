@@ -32,7 +32,7 @@ char c = 'g';
 You can refer back to any of these values by referencing the variable name.
 
 ### What is an array?
-An array is a grouping of like datatypes sequential in memory. We can use any of the datatypes above and add [] after the datatype to turn it an array. Arrays are of fixed length so once you defined the size you cannot increase the size
+If we want to store multiple values of one datatype, we use an array. An array is a grouping of like datatypes sequential in memory. Arrays are of fixed length so once you defined the size you cannot increase the size
 ```Java
 int[] arr = {23,4,13,36}; //array size = 4;
 int[] arr2 = new int[100]; //array size = 100. This line did not defined any values in the array. It just created 100 places in memory next to eachother to store int values later
@@ -41,4 +41,7 @@ int[] arr2 = new int[100]; //array size = 100. This line did not defined any val
 System.out.println(arr[0]); //will print 23 to the console
 System.out.println(arr[1]); //will print 4 to the console
 System.out.println(arr[2]); //will print 13 to the console
+
+//We can assign values to an array like this
+arr[2] = 22; //this reassigned the value at index 2 (which was 13) to 22
 ```
