@@ -45,3 +45,14 @@ System.out.println(arr[2]); //will print 13 to the console
 //We can assign values to an array like this
 arr[2] = 22; //this reassigned the value at index 2 (which was 13) to 22
 ```
+
+### What is Control Flow?
+Java executes line by line from top to bottom. However there are structures we can use to break up that flow of execution. These structures are different types of control flow statements
+
+### Common Control Flow Statements
+- if, else
+- switch statement
+- for loop / enhanced for loop
+- while loop
+
+
